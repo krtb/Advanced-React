@@ -3,13 +3,13 @@ import Link from 'next/link';
 const Nav = () => (
     <div>
         <Link href="/index" >
-            Home!
+            <p> Home! </p>
         </Link>
         
         <br />
 
         <Link href="/sell" >
-            Sell Page
+            <p> Sell Page </p>
         </Link>
     </div>
 )
