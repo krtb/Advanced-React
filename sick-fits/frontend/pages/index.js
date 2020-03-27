@@ -6,7 +6,6 @@ const Home = () => (
      <p>
         index page!
      </p>
-     <Link href="/sell" >Sell Page</Link>
  </div>
 )
 
