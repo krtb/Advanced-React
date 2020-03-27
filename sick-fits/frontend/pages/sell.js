@@ -6,9 +6,6 @@ const Sell = () => (
         <p>
         Sell items page!
         </p>
-        <Link href="/index" >
-            Home!
-        </Link>
     </div>
 )
 
