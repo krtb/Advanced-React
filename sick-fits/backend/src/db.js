@@ -1,4 +1,5 @@
-// CONNECTS TO REMOTE PRISMA DB
+// PRISMA SERVER
+//  CONNECTS TO REMOTE PRISMA DB
 // and GIVES ABILITY TO QUERY WITH JS
 const { Prisma } = require('prisma-binding'); 
 // using require, was no import in Node. 
