@@ -5,13 +5,13 @@ import Nav from '../components/Nav';
 import Link from 'next/link';
 import styled from 'styled-components';
  
-Router.onRouterChangeStart = () => {
+Router.onRouteChangeStart = () => {
     console.log('onRouteChangeStart');   
 }
-Router.onRouterChangeComplete = () => {
+Router.onRouteChangeComplete = () => {
     console.log('onRouterChangeComplete');
 }
-Router.onRouterChangeEnd = () => {
+Router.onRouteChangeEnd = () => {
     console.log('onRouterChangeEnd');
 }
 
