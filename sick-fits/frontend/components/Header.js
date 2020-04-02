@@ -4,6 +4,16 @@ import NProgress from 'nprogress';
 import Nav from '../components/Nav';
 import Link from 'next/link';
 import styled from 'styled-components';
+ 
+Router.onRouterChangeStart = () => {
+    console.log('onRouteChangeStart');   
+}
+Router.onRouterChangeComplete = () => {
+    console.log('onRouterChangeComplete');
+}
+Router.onRouterChangeEnd = () => {
+    console.log('onRouterChangeEnd');
+}
 
 const Logo = styled.h1`
     font-size: 4rem;
