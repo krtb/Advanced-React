@@ -8,8 +8,8 @@ const db = require('./db');
 
 function createServer(params) {
     return new GraphQlServer({
-        typedefs: './schema.graphql',
-        resolervers: {
+        typeDefs: './schema.graphql',
+        resolvers: {
             Mutation,
             Query
         },
