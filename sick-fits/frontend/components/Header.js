@@ -1,3 +1,6 @@
+import Router from 'next/router';
+import NProgress from 'nprogress';
+
 import Nav from '../components/Nav';
 import Link from 'next/link';
 import styled from 'styled-components';
