@@ -6,13 +6,13 @@ import Link from 'next/link';
 import styled from 'styled-components';
  
 Router.onRouteChangeStart = () => {
-    console.log('onRouteChangeStart');   
+    NProgress.start(); 
 }
 Router.onRouteChangeComplete = () => {
-    console.log('onRouterChangeComplete');
+    NProgress.done();
 }
-Router.onRouteChangeEnd = () => {
-    console.log('onRouterChangeEnd');
+Router.onRouteChangeError = () => {
+    NProgress.done();
 }
 
 const Logo = styled.h1`
